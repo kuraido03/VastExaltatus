@@ -1,5 +1,6 @@
 {
   "expo": {
+    "newArchEbabled":true,
     "name": "VastExaltatus",
     "slug": "VastExaltatus",
     "scheme": "VastExaltatus",

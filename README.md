@@ -1,11 +1,11 @@
-# TechFolio Hub
-TechFolio Mobile App.
+# VastExaltatus
+VastExaltatus
 
 # Features
-* Share Projects
-* Message other developers
-* Rate others work
-* Search other developers
+* Comprehensive Career Exploration
+* Industry Insights
+* Personalized Guidance
+* Educational Resources~~
 
 # Course Overview
 * Basic React Native Components
@@ -19,13 +19,13 @@ TechFolio Mobile App.
 * HTML, CSS and JS
 
 # Home Screen
-<img src="assets/images/screenshot/onboarding.png">  
+<img src="assets/images/screenshot/onboarding.jpg">  
 
 # Sign Up Screen
-<img src="assets/images/screenshot/signup.png">  
+<img src="assets/images/screenshot/signup.jpg">  
 
 # Sign In Screen
-<img src="assets/images/screenshot/login.png">  
+<img src="assets/images/screenshot/signin.jpg">  
 
 # Tabs Screen
 <img src="assets/images/screenshot/tabs.png">  
