@@ -3,6 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import { Stack,SplashScreen } from 'expo-router';
 import {useFonts} from 'expo-font';
 import { useEffect } from 'react';
+import GlobalProvider from '../context/GlobalProvider';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -33,23 +34,19 @@ const MainLayout =()=>{
 
         if(error) throw error;
 
-        if(fontsLoaded){
-            SplashScreen.hideAsync();
-        }
+        if(fontsLoaded)SplashScreen.hideAsync();
     },[fontsLoaded,error]);
 
-    if(!fontsLoaded && !error){
-        return null;
-    }
-
-
+    if(!fontsLoaded && !error) return null;
 
   return (
+    <GlobalProvider>
     <Stack>
       <Stack.Screen name='index' options={{headerShown:false}}/>
       <Stack.Screen name='(auth)' options={{headerShown:false}}/>
       <Stack.Screen name='(tabs)' options={{headerShown:false}}/>
     </Stack>
+    </GlobalProvider>
   );
 }
 
